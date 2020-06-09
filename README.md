@@ -23,13 +23,15 @@ To find DSTs and SSTs approximately, the provided source code employs genetic al
     
 1. You need to have a list of edges of the initial graph. This can be a 2-column matrix if the edges are not weighted or 3-column matrix where the 3rd column is being weights of the edges. The datasets for the applications used in the paper are given under the "ApplicationDatasets" folder.
 
-2. Specify the objective function. In the code, Weiner Index and Sum of power(p) of degrees are included. Any desired objective function can be implemented and embedded in this code. To change the objective function, go to line 46 in the GAoptimization.m file.
+2. Go to main.m file which is the file where user inputs the dataset and controls every settings. main.m file comes with the default settings specified in the section below.
 
-3. Specify objective function settings: a) "wantDense = true" if you want to search for a dense spanning tree. b) "wantDense = false" if you want to search for a sparse spanning tree. c) "isObjFunctMinimized = true" if the desired tree is found by minimizing the objective function. d) "isObjFunctMinimized = false" if the desired tree is found by maximizing the objective function.
+3. Specify the objective function. In the code, Weiner Index and Sum of power(p) of degrees are included. Any desired objective function can be implemented and embedded in this code. To change the objective function, go to line 46 in the GAoptimization.m file.
+
+4. Specify objective function settings: a) "wantDense = true" if you want to search for a dense spanning tree. b) "wantDense = false" if you want to search for a sparse spanning tree. c) "isObjFunctMinimized = true" if the desired tree is found by minimizing the objective function. d) "isObjFunctMinimized = false" if the desired tree is found by maximizing the objective function.
 
 Note: The dense(sparse) spanning trees can minimize(maximize) some objective functions while they may maximize(minimize) some other objective functions. Therefore, the type of optimization should be specified. DSTs minimize the Weiner index whereas SSTs maximize the Weiner index. The opposite is true for the sum of power(p) of degrees for p > 1.
 
-4. Genetic algorithm settings: a) Set the "populationSize" to a number. A high population size increases the chance of finding better dense/sparse spanning trees while it increases the time complexity. Also, for large graphs, it is suggested to use a high population size (eg. 5e5, etc.). b) Set "useParallel = true" if you want to run the code in parallel mode. Running in parallel mode will speed up the code as all cores of the computer are used.
+5. Genetic algorithm settings: a) Set the "populationSize" to a number. A high population size increases the chance of finding better dense/sparse spanning trees while it increases the time complexity. Also, for large graphs, it is suggested to use a high population size (eg. 5e5, etc.). b) Set "useParallel = true" if you want to run the code in parallel mode. Running in parallel mode will speed up the code as all cores of the computer are used.
 
 Note: You should have the Matlab's Parallel Computing Toolbox installed in your system to run in parallel.
 
