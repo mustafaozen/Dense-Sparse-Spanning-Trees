@@ -43,6 +43,6 @@ By default the codes come with the following settings:
 
 4. Genetic algorithm settings: a) populationSize = 1e4; b) useParallel = false;
 
-To test the code, go and run the main.m file which has the above default settings. The comments in the code lines will provide further details if any changes needed. The output of the test run will be a figure of the globally optimal dense spnning tree, a figure for the toy graph, and the objective function value (that is the Wiener index by default) of the dense spanning tree on the command window. 
+To test the code, go and run the main.m file which has the above default settings. The comments in the code lines will provide further details if any changes needed. The output of the test run are a figure for the globally optimal dense spnning tree, a figure for the toy network, and the objective function value (that is the Wiener index by default) of the dense spanning tree on the command window. 
 
 For theoretical details, please refer to the published paper.
