@@ -43,12 +43,12 @@ clear
 
 % 1. Load dataset
     load ApplicationDatasets/ToyNetEdges.txt
-    % load ApplicationDatasets/BrainNet.txt
-    % load ApplicationDatasets/GeneExpressionNet.txt
-    % load ApplicationDatasets/ChesapeakeRoadNet.txt
-    % load ApplicationDatasets/CollaborationNet.txt
-    % load ApplicationDatasets/RetweetNet.txt
-    % load ApplicationDatasets/USAirports_332.txt
+    % load ApplicationDatasets/BrainNet.txt % Retrieved from http://networkrepository.com
+    % load ApplicationDatasets/GeneExpressionNet.txt % Retrieved from http://networkrepository.com
+    % load ApplicationDatasets/ChesapeakeRoadNet.txt % Retrieved from http://networkrepository.com
+    % load ApplicationDatasets/CollaborationNet.txt % Retrieved from http://networkrepository.com
+    % load ApplicationDatasets/RetweetNet.txt % Retrieved from http://networkrepository.com
+    % load ApplicationDatasets/USAirports_332.txt % Retrieved from http://networkrepository.com
     
     listOfEdges = ToyNetEdges;
     [m, n] = size(listOfEdges);
