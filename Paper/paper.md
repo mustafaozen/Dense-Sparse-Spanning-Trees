@@ -22,7 +22,7 @@ bibliography: paper.bib
 
 Finding spanning trees under various constraints is an interesting problem with applications in many fields such as 
 Information Technology, Network Design, Systems Biology. Some previous works on this problem can be seen in @Narula:1980,
-@Bazlamacci:2001, @Silva:2014, @Yalman:2015, @Ozen:2016, and @Li:2017. Recently, a novel notion of “dense” and “sparse” 
+@Bazlamacci:2001, @Silva:2014, @Ozen:2016, and @Li:2017. Recently, a novel notion of “dense” and “sparse” 
 trees, and in particular spanning trees (DST and SST respectively), are introduced [@Ozen:2020] as the structure 
 that have a large and small number of subtrees, or a small and large sum of distances between vertices, respectively. 
 We show that finding DST and SST reduces to solving the following discrete optimization problem, which is one of 
