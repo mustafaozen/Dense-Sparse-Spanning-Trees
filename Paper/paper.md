@@ -67,6 +67,6 @@ B) The optimal dense spanning tree. \label{fig:fig1}](fig1.png)
 # Acknowledgements
 
 I acknowledge contributions from Dr. Goran Lesaja and Dr. Hua Wang for their help and support on developing theoretical
-baacground of this project.
+background of this project.
 
 # References
