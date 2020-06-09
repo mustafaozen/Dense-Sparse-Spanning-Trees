@@ -48,7 +48,7 @@ clear
     % load ApplicationDatasets/ChesapeakeRoadNet.txt % Retrieved from http://networkrepository.com
     % load ApplicationDatasets/CollaborationNet.txt % Retrieved from http://networkrepository.com
     % load ApplicationDatasets/RetweetNet.txt % Retrieved from http://networkrepository.com
-    % load ApplicationDatasets/USAirports_332.txt % Retrieved from http://networkrepository.com
+    % load ApplicationDatasets/USAirports_332.txt % Retrieved from http://vlado.fmf.uni-lj.si/pub/networks/data/
     
     listOfEdges = ToyNetEdges;
     [m, n] = size(listOfEdges);
