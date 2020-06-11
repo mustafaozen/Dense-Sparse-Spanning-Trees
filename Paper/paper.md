@@ -41,7 +41,7 @@ the proposed methods in the paper (Model 2):
 \end{equation}
 
 where $G$ is the given graph, $E(G)$ is the edge set of $G$, $V(G)$ is the vertex set of $G$. Basically, we search 
-for a $\vec{h}$ with unique integer components $h_i$ such that the (N−1)-dimensional vector $\vec{h}^{*}$ constructed 
+for a vector $\vec{h}$ with unique integer components $h_i$ such that the (N−1)-dimensional vector $\vec{h}^{*}$ constructed 
 using Kruskal’s algorithm from $\vec{h}$ has the optimal objective function value. 
 
 The advantage of \autoref{eq:Eq1} is the fact that we narrow down the search space and reduce the cost of checking if 
