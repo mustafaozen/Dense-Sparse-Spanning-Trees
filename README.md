@@ -47,4 +47,4 @@ By default the codes come with the following settings:
 
 To test the code, go and run the main.m file which has the above default settings. The comments in the code lines will provide further details if any changes needed. The output of the test run are a figure for the globally optimal dense spnning tree, a figure for the toy network, and the objective function value (that is the Wiener index by default) of the dense spanning tree on the command window. 
 
-For theoretical details, please refer to: Ozen, G. Lesaja, and H. Wang, "Globally optimal dense and sparse spanning trees, and their applications", Statistics, Optimization & Information Computing, 8(2), pp. 328-345, 2020, https://doi.org/10.19139/soic-2310-5070-855.
+For theoretical details, please refer to: M. Ozen, G. Lesaja, and H. Wang, "Globally optimal dense and sparse spanning trees, and their applications", Statistics, Optimization & Information Computing, 8(2), pp. 328-345, 2020, https://doi.org/10.19139/soic-2310-5070-855.
