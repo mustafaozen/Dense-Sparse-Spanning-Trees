@@ -1,6 +1,6 @@
 # Dense-Sparse-Spanning-Trees-Genetic-Algorithm
 This repository provides source MATLAB codes for Model 2 of the following paper:
-M. Ozen, G. Lesaja, and H. Wang, "Globally optimal dense and sparse spanning trees, and their applications", Statistics, Optimization & Information Computing, 8(2), pp. 328-345, 2020.
+M. Ozen, G. Lesaja, and H. Wang, "Globally optimal dense and sparse spanning trees, and their applications", Statistics, Optimization & Information Computing, 8(2), pp. 328-345, 2020, https://doi.org/10.19139/soic-2310-5070-855.
 
 Finding dense spanning trees(DST) and sparse spanning trees(SST) of a given graph reduces to a discrete optimization problem which is very hard to solve for large graphs with hundreds of vertices and edges. The previously proposed heuristic methods are not efficient, especially for large graphs. In the aforementioned paper, we reduced the problem of finding DSTs and SSTs into an optimization problem and solved it using GA. The proposed approach employs the degree conditions as the new criteria to find DSTs and SSTs for any connected, directed or undirected, weighted or unweighted, large or small graphs efficiently. Furthermore, it can be applied recursively to sub-trees or spanning trees with additional constraints to further investigate the graphical properties of the graph and/or network. Several applications of the method to different networks such as cancer cell gene network, brain network, social networks, and so on, are presented in the paper.
 
