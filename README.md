@@ -35,7 +35,7 @@ Note: The dense(sparse) spanning trees can minimize(maximize) some objective fun
 
 Note: You should have the Matlab's Parallel Computing Toolbox installed in your system to run in parallel.
 
-# Test Case(by default):
+# Test Case (by default):
 By default the codes come with the following settings:
 1. The dataset is the randomly generated graph ("ToyNetEdges") containing both densest(star) and sparsest(path) trees.
 
