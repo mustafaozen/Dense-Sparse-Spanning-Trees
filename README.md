@@ -1,4 +1,4 @@
-# Dense-Sparse-Spanning-Trees-Genetic-Algorithm
+# Dense-Sparse-Spanning-Trees
 This repository provides source MATLAB codes for Model 2 of the following paper:
 M. Ozen, G. Lesaja, and H. Wang, "Globally optimal dense and sparse spanning trees, and their applications", Statistics, Optimization & Information Computing, 8(2), pp. 328-345, 2020, https://doi.org/10.19139/soic-2310-5070-855.
 
